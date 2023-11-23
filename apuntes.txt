@@ -1,9 +1,0 @@
-apuntes de la empresa 
-esto es super importante ya que me permite descargar y hacer modificaciones al proyecto solo descargando el contenido
-continuo la tercera linea haciendo modificaciones
-para aprender de git es necesario dar seguimiento a pasos que te ayuden a entender el contexto de lo que estas haciendo
-por eso vamos a realizar varias add al repositorio
-aprender comandos basicos 
-aprender sobre el software y manipulacion en la nube
-jJAJJJJAJAJJA
-VAMOS CON TODA
