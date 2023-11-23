@@ -138,5 +138,7 @@ function editarPro(posicion) {
         imagen.value = "";
     });  
 }
+
+//mensajes de prueba en localStorage
 //ejecutar funcion
 //mostrarDatos();
