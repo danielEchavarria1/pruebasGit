@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>localstorage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h1 class="text-center">Listado de productos</h1>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-6">
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">NOMBRE</label>
+                    <input type="text" placeholder="Escribe el nombre del Producto"  class="nombre-pro form-control">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">PRESENTACION</label>
+                    <input type="text" placeholder="Escribe la Presentacion del Producto"  class="presentacion-pro form-control">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">PRECIO</label>
+                    <input type="number" placeholder="Escribe el precio del Producto"  class="precio-pro form-control">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">IMAGEN</label>
+                    <input type="url" placeholder="url de imagen de internet" class="imagen-pro form-control">
+                </div>
+                <button type="button" class="btn-guardar btn btn-primary">Guardar Producto</button>
+                <button type="button" class="d-none btn-actualizar btn btn-success">Actualizar Producto</button>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-8 my-3">
+                <input class="form-control my-2" type="text" placeholder="buscar producto"> <button>buscar</button>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Nombre</th>
+                            <th>Presentacion</th>
+                            <th>Precio</th>
+                            <th>imagen</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!--aqui van los productos-->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="localstorage.js"></script>
+</body>
+</html>
