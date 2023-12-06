@@ -1,0 +1,56 @@
+1- docker pull nombre_imagen
+Descripción: Descarga una imagen de Docker desde Docker Hub u otro registro de imágenes. Por ejemplo, docker pull ubuntu descarga la imagen base de Ubuntu.
+
+2- docker images
+Descripción: Muestra una lista de todas las imágenes de Docker que están almacenadas localmente en tu máquina.
+
+3- docker ps
+Descripción: Muestra una lista de todos los contenedores que están en ejecución en este momento.
+
+4- docker ps -a
+Descripción: Muestra una lista de todos los contenedores, ya sea que estén en ejecución o detenidos.
+
+5- docker run nombre_imagen
+Descripción: Ejecuta un nuevo contenedor a partir de una imagen específica. Por ejemplo, docker run ubuntu ejecutará un contenedor basado en la imagen de Ubuntu.
+
+6- docker stop ID_contenedor
+Descripción: Detiene un contenedor en ejecución. Reemplaza ID_contenedor con el identificador único del contenedor.
+
+7- docker rm ID_contenedor
+Descripción: Elimina un contenedor. Debes detener el contenedor antes de poder eliminarlo. Reemplaza ID_contenedor con el identificador único del contenedor.
+
+8- docker rmi nombre_imagen
+Descripción: Elimina una imagen de Docker. Asegúrate de que no haya contenedores basados en la imagen que estás intentando eliminar.
+
+9- docker exec -it ID_contenedor comando
+Descripción: Ejecuta un comando dentro de un contenedor en ejecución. La opción -it permite interactuar con el contenedor. Reemplaza ID_contenedor con el identificador único del contenedor.
+
+10- docker-compose up
+Descripción: Levanta servicios definidos en un archivo docker-compose.yml. Útil para configurar y ejecutar aplicaciones compuestas por varios contenedores.
+
+11- docker logs ID_contenedor
+Descripción: Muestra los registros (logs) de un contenedor específico. Reemplaza ID_contenedor con el identificador único del contenedor.
+
+12- docker inspect ID_contenedor
+Descripción: Muestra información detallada sobre un contenedor, incluyendo configuración, redes, volúmenes, etc. Reemplaza ID_contenedor con el identificador único del contenedor.
+
+13- docker network ls
+Descripción: Lista las redes de Docker disponibles en tu máquina.
+
+14 -docker volume ls
+Descripción: Lista los volúmenes de Docker disponibles en tu máquina.
+
+15- docker-compose down
+Descripción: Detiene y elimina los servicios definidos en un archivo docker-compose.yml, así como los contenedores asociados.
+
+16- docker exec -it ID_contenedor /bin/bash
+Descripción: Inicia una sesión interactiva de la shell dentro de un contenedor en ejecución. Reemplaza ID_contenedor con el identificador único del contenedor.
+
+17- docker build -t nombre_imagen ruta_directorio.
+Descripción: Construye una imagen de Docker a partir de un Dockerfile en una ubicación específica. Reemplaza nombre_imagen con el nombre deseado y ruta_directorio con la ruta del directorio que contiene el Dockerfile y los archivos necesarios.
+
+18- docker-compose build
+Descripción: Construye o reconstruye servicios definidos en un archivo docker-compose.yml. Útil cuando se realizan cambios en el Dockerfile o en los archivos de la aplicación.
+
+19- docker-compose ps
+Descripción: Muestra el estado de los servicios definidos en un archivo docker-compose.yml, incluyendo los contenedores asociados.
